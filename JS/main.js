@@ -493,12 +493,40 @@ function makeCall() {
   // Use the "tel" URI scheme to open the call app
   window.location.href = "tel:" + phoneNumber;
 }
+function makeCall1() {
+  // Specify the phone number you want to call
+  var phoneNumber = "+201001303001"; // Replace with the actual phone number
+
+  // Use the "tel" URI scheme to open the call app
+  window.location.href = "tel:" + phoneNumber;
+}
+function makeCall2() {
+  // Specify the phone number you want to call
+  var phoneNumber = "+201111101331"; // Replace with the actual phone number
+
+  // Use the "tel" URI scheme to open the call app
+  window.location.href = "tel:" + phoneNumber;
+}
 
 // function Mail me
 
 function sendEmail() {
   // Specify the email address you want to send an email to
   var emailAddress = "Hesham.mamesh@esccgroup.com"; // Replace with the actual email address
+
+  // Use the "mailto" URI scheme to open the default email client
+  window.location.href = "mailto:" + emailAddress;
+}
+function sendEmail1() {
+  // Specify the email address you want to send an email to
+  var emailAddress = "Hesham.mamesh@esccgroup.com"; // Replace with the actual email address
+
+  // Use the "mailto" URI scheme to open the default email client
+  window.location.href = "mailto:" + emailAddress;
+}
+function sendEmail2() {
+  // Specify the email address you want to send an email to
+  var emailAddress = "Karim.mamesh@esccgroup.com"; // Replace with the actual email address
 
   // Use the "mailto" URI scheme to open the default email client
   window.location.href = "mailto:" + emailAddress;
