@@ -2408,6 +2408,10 @@ header .contact-btn[data-scroll="out"]:hover {
   align-items: center;
   gap: 121px;
 }
+.partners .partners-logo img{
+  height: 62px;
+  width: 160px;;
+}
 
 @media (max-width: 992px) {
   .partners-for-pc {
@@ -2762,7 +2766,7 @@ footer p {
   overflow: hidden;
   position: absolute;
   transition: 0.5s ease-in-out;
-  width: 160.5%;
+  width: 155.5%;
   right: -100%;
   top: 60%;
   transform: translateY(-50%);
@@ -2770,10 +2774,11 @@ footer p {
   -moz-transition: 0.5s ease-in-out;
   -ms-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
+
 }
 @media (max-width: 1440px) {
   .scrolling-logos {
-    width: 164.5%;
+    width: 154.5%;
     right: -100%;
   }
 }
@@ -2802,9 +2807,12 @@ footer p {
   white-space: nowrap;
   transition: 0.5s ease;
   width: 100%;
+  
 }
 .partners-logos img {
-  width: 200px;
+  width: auto;
+  height: 62px;
+  scale: 1.1;
 }
 
 .partners h4.fmob {
@@ -2878,6 +2886,7 @@ footer p {
     display: none;
   }
 }
+
 
 @keyframes scrollRightt {
   0% {
@@ -5813,3 +5822,4 @@ header.active-contact:after {
 }
 
 /* Scrolling Animation */
+
