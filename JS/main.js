@@ -447,6 +447,11 @@ var swiper = new Swiper(".mySwiperr", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  loop: true, // Enable infinite loop
+  autoplay: {
+    delay: 2000, // Set the delay between slides (in milliseconds)
+    disableOnInteraction: false, // Continue autoplay even when user interacts with the slider
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,

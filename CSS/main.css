@@ -2892,6 +2892,17 @@ footer p {
   }
 }
 
+@media (max-width:566px) {
+  .partners-logos{
+    gap: 20px;
+  }
+  .partners-logos img {
+    width: auto;
+    height: auto;
+    width: 100px;
+  }
+  
+}
 
 @keyframes scrollRightt {
   0% {
@@ -3082,7 +3093,6 @@ footer p {
   position: relative;
   background-color: white;
   padding-bottom: 112px;
-  padding-top: 112px;
   background-color: white;
 }
 .whoWeAre .container {
@@ -3446,8 +3456,8 @@ footer p {
   .esscBenefits .benefit {
     padding-bottom: 24px;
     padding-top: 24px;
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 16px;
+    padding-left: 16px;
   }
   .esscBenefits .benefit4 {
     padding-bottom: 0;
@@ -5838,5 +5848,9 @@ header.active-contact:after {
   }
 }
 
-/* Scrolling Animation */
+
+.swiper-button-prev,
+.swiper-button-next{
+  display: none;
+}
 
