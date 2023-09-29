@@ -2776,6 +2776,19 @@ footer p {
   -o-transition: 0.5s ease-in-out;
 
 }
+.partners-logos img {
+  width: auto;
+  height: 92px;
+  width: 200px;
+
+}
+.partners-logos .pepsi {
+  width: auto;
+  height: 92px;
+
+
+}
+
 @media (max-width: 1440px) {
   .scrolling-logos {
     width: 154.5%;
@@ -3460,7 +3473,7 @@ footer p {
     padding-left: 16px;
   }
   .esscBenefits .benefit4 {
-    padding-bottom: 0;
+    padding-bottom: 24;
   }
   .esscBenefits .container h3.for-mob {
     display: block;
@@ -3687,6 +3700,7 @@ footer p {
 
 .scrollEffect {
   mix-blend-mode: difference;
+  -webkit-mix-blend-mode: difference; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -3699,6 +3713,10 @@ footer p {
   width: 30px;
   z-index: 500;
   color: white;
+  -webkit-transform: translateY(270px);
+  -moz-transform: translateY(270px);
+  -ms-transform: translateY(270px);
+  -o-transform: translateY(270px);
 }
 .scrollEffect .ef {
   width: 10px;
@@ -4721,6 +4739,7 @@ header.active-contact:after {
   .contact-images .gpsLink {
     width: 30px;
     height: 30px;
+    z-index: 100;
   }
   .contact-images .gps {
     position: relative;
@@ -4728,7 +4747,7 @@ header.active-contact:after {
   }
   .loactiongps {
     left: 45%;
-    top: 68%;
+    top: 67%;
   }
   .loactiongps img {
     width: 150px;

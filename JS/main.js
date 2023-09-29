@@ -432,6 +432,11 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  loop: true, // Enable infinite loop
+  autoplay: {
+    delay: 2000, // Set the delay between slides (in milliseconds)
+    disableOnInteraction: false, // Continue autoplay even when user interacts with the slider
+  },
 
   breakpoints: {
     0: { slidesPerView: 1 },
@@ -688,4 +693,3 @@ document
   .addEventListener("click", function () {
     window.location.href = "proj12.html";
   });
-
